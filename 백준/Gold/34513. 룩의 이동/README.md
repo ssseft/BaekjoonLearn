@@ -16,7 +16,7 @@
 
 ### 문제 설명
 
-<p><mjx-container class="MathJax" jax="CHTML" style="font-size: 104.6%; position: relative;"> <mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D441 TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-cD7"></mjx-c></mjx-mo><mjx-mi class="mjx-i" space="3"><mjx-c class="mjx-c1D441 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>N</mi><mo>×</mo><mi>N</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$N \times N$</span></mjx-container> 크기의 체스판 위에 흑 룩, 백 킹, 그리고 그 외의 흑/백 기물들이 놓여 있다. 여러분은 흑 플레이어이며, 목표는 흑 룩을 이동하여 백 킹을 잡는 것이다.</p>
+<p>$N \times N$ 크기의 체스판 위에 흑 룩, 백 킹, 그리고 그 외의 흑/백 기물들이 놓여 있다. 여러분은 흑 플레이어이며, 목표는 흑 룩을 이동하여 백 킹을 잡는 것이다.</p>
 
 <p>룩의 이동 규칙은 다음과 같다.</p>
 
@@ -30,9 +30,9 @@
 
 ### 입력 
 
- <p>첫 번째 줄에 <mjx-container class="MathJax" jax="CHTML" style="font-size: 104.6%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D441 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>N</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$N$</span></mjx-container>이 주어진다.</p>
+ <p>첫 번째 줄에 $N$이 주어진다.</p>
 
-<p>그다음 줄부터 <mjx-container class="MathJax" jax="CHTML" style="font-size: 104.6%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D441 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>N</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$N$</span></mjx-container>개의 줄에 걸쳐 체스판의 상태가 주어지며, 각 줄은 길이 <mjx-container class="MathJax" jax="CHTML" style="font-size: 104.6%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D441 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>N</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$N$</span></mjx-container>의 문자열로 이루어진다. 입력으로 주어지는 문자는 다음과 같다.</p>
+<p>그다음 줄부터 $N$개의 줄에 걸쳐 체스판의 상태가 주어지며, 각 줄은 길이 $N$의 문자열로 이루어진다. 입력으로 주어지는 문자는 다음과 같다.</p>
 
 <ul>
 <li><span style="color:#e74c3c;"><code>R</code></span>: 흑 룩</li>
@@ -42,7 +42,7 @@
 <li><span style="color:#e74c3c;"><code>.</code></span>: 빈 칸</li>
 </ul>
 
-<p>체스판에서 흑 룩과 백 킹은 각각 하나만 주어진다. 다른 흑/백 기물은 <mjx-container class="MathJax" jax="CHTML" style="font-size: 104.6%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0</mn></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$0$</span></mjx-container>개 이상 주어지며, 일반적인 체스와 달리 개수에 제한이 없다. 같은 칸에 <mjx-container class="MathJax" jax="CHTML" style="font-size: 104.6%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2</mn></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$2$</span></mjx-container>개 이상의 기물이 있는 경우는 존재하지 않는다.</p>
+<p>체스판에서 흑 룩과 백 킹은 각각 하나만 주어진다. 다른 흑/백 기물은 $0$개 이상 주어지며, 일반적인 체스와 달리 개수에 제한이 없다. 같은 칸에 $2$개 이상의 기물이 있는 경우는 존재하지 않는다.</p>
 
 ### 출력 
 
