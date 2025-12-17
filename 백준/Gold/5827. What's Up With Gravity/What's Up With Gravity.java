@@ -48,7 +48,7 @@ public class Main {
 			int y = c[1];
 			int cnt = c[3];
 			
-			if(x<0||x>=n) continue;
+			if(x<0||x>=n||visited[x][y][c[2]]<=cnt) continue;
 			
 			if(arr[x][y]=='.') {
 				visited[x][y][c[2]] = cnt;
