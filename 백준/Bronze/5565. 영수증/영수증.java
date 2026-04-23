@@ -1,0 +1,1 @@
+import java.util.*;class Main{public static void main(String[] a){Scanner c=new Scanner(System.in);int t=c.nextInt();for(int i=0;i<9;i++)t-=c.nextInt();System.out.print(t);}}

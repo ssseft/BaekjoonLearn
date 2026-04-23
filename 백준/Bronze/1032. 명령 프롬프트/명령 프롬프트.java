@@ -1,0 +1,1 @@
+import java.util.*;class Main{public static void main(String[] a){Scanner s=new Scanner(System.in);int n=s.nextInt();String[] arr=new String[n];for(int i = 0;i<n;)arr[i++]=s.next();String r = "";for(int i=0;i<arr[0].length();i++){int w=0;char t=arr[0].charAt(i);for(int j =1;j<n;j++)if(t!=arr[j].charAt(i))w=1;if(w==1)r+='?';else r+=t;}System.out.print(r);}}

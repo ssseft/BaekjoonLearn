@@ -1,0 +1,1 @@
+import java.util.*;class Main{public static void main(String[] a){Scanner s = new Scanner(System.in);int c = 0;for(int i = 0;i<8;i++) {String l = s.nextLine();int b = i%2!=0?1:0;for(int j = b;j<8;j+=2)if(l.charAt(j)=='F')c++;}System.out.print(c);}}

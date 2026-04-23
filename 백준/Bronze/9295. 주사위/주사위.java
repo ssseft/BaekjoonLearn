@@ -1,0 +1,1 @@
+import java.util.*;class Main{public static void main(String[] a){Scanner sc=new Scanner(System.in);int t=sc.nextInt();for(int i=1;i<=t;)System.out.println("Case "+i+++": "+(sc.nextInt()+sc.nextInt()));}}
